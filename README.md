@@ -8,6 +8,9 @@ GitHub repo: <REPO_URL>
 CUSHMS is a CUHK-focused second-hand marketplace for students to buy/sell items (textbooks, furniture, daily goods).
 Key workflows: Listings + search/filtering + item status (Available → Reserved → Sold) + real-time chat/notifications.
 
+## Demo Video
+
+
 ## Tech Stack
 - Ruby on Rails 7+
 - Database: MySQL
