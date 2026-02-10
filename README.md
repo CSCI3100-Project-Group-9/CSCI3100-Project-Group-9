@@ -1,24 +1,42 @@
-# README
+# CSCI3100-Project Group 9
+# CUSHMS — CUHK Second-hand Marketplace SaaS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Live demo: <HEROKU_URL>
+GitHub repo: <REPO_URL>
 
-Things you may want to cover:
+## Overview
+CUSHMS is a CUHK-focused second-hand marketplace for students to buy/sell items (textbooks, furniture, daily goods).
+Key workflows: Listings + search/filtering + item status (Available → Reserved → Sold) + real-time chat/notifications.
 
-* Ruby version
+## Demo Video
 
-* System dependencies
 
-* Configuration
+## Tech Stack
+- Ruby on Rails 7+
+- Database: MySQL
+- Testing: RSpec (unit) + Cucumber (BDD)
+- CI: GitHub Actions
+- Deployment: Heroku
 
-* Database creation
+## Features
+### Core features
+- CUHK email verification (restricted to @link.cuhk.edu.hk)
+- Listings CRUD + image upload
+- Item status management (Available → Reserved → Sold)
 
-* Database initialization
+### Advanced features (N-1)
+- Fuzzy search + filtering
+- Community/college space
+- ActionCable real-time chat/notifications
 
-* How to run the test suite
+## Local Setup
+### Prerequisites
+- Ruby: <version>
+- Bundler
+- MySQL
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Installation
+```bash
+git clone <REPO_URL>
+cd <PROJECT_FOLDER>
+bundle install
