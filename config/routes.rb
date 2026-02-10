@@ -7,3 +7,4 @@ Rails.application.routes.draw do
   # get 'service-worker' => 'pwa#service_worker'
   # get 'manifest' => 'pwa#manifest'
 end
+# Updated routes
