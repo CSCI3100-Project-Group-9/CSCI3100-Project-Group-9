@@ -1,5 +1,5 @@
 # CSCI3100-Project Group 9
-# CUSHMS — CUHK Second-hand Marketplace SaaS
+# CUSHMS — CUHK Second-Hand Marketplace SaaS
 
 Live demo: <HEROKU_URL>
 GitHub repo: <REPO_URL>
