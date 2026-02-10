@@ -26,16 +26,6 @@ Key workflows: Listings + search/filtering + item status (Available → Reserved
 - Community/college space
 - ActionCable real-time chat/notifications
 
-## Feature Ownership
-| Feature | Primary Developer | Secondary Developer | Notes |
-|---|---|---|---|
-| Auth + Email verification | <Name> | <Name> | |
-| Listings CRUD + images | <Name> | <Name> | |
-| Search (fuzzy) + filters | <Name> | <Name> | |
-| Status workflow | <Name> | <Name> | |
-| ActionCable chat/notifications | <Name> | <Name> | |
-| Community/college feature | <Name> | <Name> | |
-
 ## Local Setup
 ### Prerequisites
 - Ruby: <version>
