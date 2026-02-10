@@ -11,7 +11,7 @@ Key workflows: Listings + search/filtering + item status (Available → Reserved
 ## Demo Video
 
 
-## CSCI3100 Group 9 Project Proposal
+## Project Proposal
 https://docs.google.com/document/d/1pZFI09Xlm_pA6fKjwJcew4SsQhj_CRPV6WBCmB0rNFI/edit?usp=sharing
 
 ## Feature Ownership
