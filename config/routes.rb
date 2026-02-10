@@ -8,3 +8,4 @@ Rails.application.routes.draw do
   # get 'manifest' => 'pwa#manifest'
 end
 # Updated routes
+
