@@ -41,13 +41,14 @@ Primary = main implementer. Secondary = support/reviewer + contributed commits/t
 
 ## Features
 ### Core features
-- CUHK email verification (restricted to @link.cuhk.edu.hk)
-- Listings CRUD + image upload
+- Community/college space
 - Item status management (Available → Reserved → Sold)
 
 ### Advanced features (N-1)
 - Fuzzy search + filtering
-- Community/college space
+- CUHK email verification (restricted to @link.cuhk.edu.hk)
+- Listings CRUD + image upload
+- Interactive Dashboard
 - ActionCable real-time chat/notifications
 
 ## Local Setup
