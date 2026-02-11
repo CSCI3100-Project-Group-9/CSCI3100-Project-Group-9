@@ -14,6 +14,10 @@ Key workflows: Listings + search/filtering + item status (Available → Reserved
 ## Project Proposal
 https://docs.google.com/document/d/1pZFI09Xlm_pA6fKjwJcew4SsQhj_CRPV6WBCmB0rNFI/edit?usp=sharing
 
+## "Walking Skeleton" Link:
+https://csci3100-group9-project-c5b9f4042600.herokuapp.com/ 
+
+
 ## Feature Ownership
 
 Primary = main implementer. Secondary = support/reviewer + contributed commits/tests.
