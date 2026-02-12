@@ -63,7 +63,7 @@ Primary = main implementer. Secondary = support/reviewer + contributed commits/t
 ### Prerequisites
 - Ruby: <version>
 - Bundler
-- MySQL
+- PostgreSQL
 
 ### Installation
 ```bash
