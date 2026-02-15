@@ -6,53 +6,22 @@
 CUSHMS is a CUHK-focused second-hand marketplace for students to buy/sell items (textbooks, furniture, daily goods).
 Key workflows: Listings + search/filtering + item status (Available → Reserved → Sold) + real-time chat/notifications.
 
-## Demo Video
 
+## Project Scope
+CUSHMS focuses on a safer campus-only marketplace:
+- Only CUHK students can register (email domain restricted to `@link.cuhk.edu.hk`)
+- Centralized listings for common campus needs (textbooks, electronics, dorm essentials)
+- Faster discovery via search/filtering (with fuzzy search as an enhancement)
+- Lower friction communication via real-time chat and notifications
+
+  
+## Demo Video
 
 ## Project Proposal
 https://docs.google.com/document/d/1pZFI09Xlm_pA6fKjwJcew4SsQhj_CRPV6WBCmB0rNFI/edit?usp=sharing
 
 ## Live Demo
 Walking Skeleton (Heroku): https://csci3100-group9-project-c5b9f4042600.herokuapp.com/
-
-
-## Feature Ownership
-
-Primary = main implementer. Secondary = support/reviewer + contributed commits/tests.
-
-| Feature Name | Primary Developer | Secondary Developer | Notes |
-| --- | --- | --- | --- |
-| Project skeleton + repo setup |  |  | Rails 7 init, initial structure. |
-| Deployment (Heroku) |  |  | Heroku config + deploy steps. |
-| CI pipeline (GitHub Actions) |  |  | Run RSpec + Cucumber in CI. |
-| User auth + roles |  |  | Auth + authorization boundaries. |
-| CUHK email verification (@link.cuhk.edu.hk) |  |  | Domain restriction + verification flow. |
-| Listings CRUD |  |  | Create/edit/delete listings + validations. |
-| Image uploads |  |  | Active Storage (or equivalent). |
-| Item status workflow |  |  | Available → Reserved → Sold. |
-| Search & filtering (fuzzy search) |  |  | Keyword search + filters. |
-| Community/college feature |  |  | College grouping/community space. |
-| ActionCable chat/notifications |  |  | Real-time messaging + notifications. |
-| RSpec + SimpleCov |  |  | Unit tests + coverage evidence. |
-| Cucumber BDD scenarios |  |  | Acceptance tests for key user stories. |
-
-
-
-
-## Table of Contents
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Scope](#project-scope)
-- [Getting Started (Local)](#getting-started-local)
-- [Environment Variables](#environment-variables)
-- [Database Setup](#database-setup)
-- [Run the App](#run-the-app)
-- [Testing](#testing)
-- [CI](#ci)
-- [Deployment (Heroku)](#deployment-heroku)
-- [Troubleshooting](#troubleshooting)
-- [Team](#team)
-
 
 
 ## Features
@@ -77,12 +46,29 @@ Primary = main implementer. Secondary = support/reviewer + contributed commits/t
 - CI: GitHub Actions
 - Deployment: Heroku
 
-## Project Scope
-CUSHMS focuses on a safer campus-only marketplace:
-- Only CUHK students can register (email domain restricted to `@link.cuhk.edu.hk`)
-- Centralized listings for common campus needs (textbooks, electronics, dorm essentials)
-- Faster discovery via search/filtering (with fuzzy search as an enhancement)
-- Lower friction communication via real-time chat and notifications
+
+
+## Feature Ownership
+
+Primary = main implementer. Secondary = support/reviewer + contributed commits/tests.
+
+| Feature Name | Primary Developer | Secondary Developer | Notes |
+| --- | --- | --- | --- |
+| Project skeleton + repo setup |  |  | Rails 7 init, initial structure. |
+| Deployment (Heroku) |  |  | Heroku config + deploy steps. |
+| CI pipeline (GitHub Actions) |  |  | Run RSpec + Cucumber in CI. |
+| User auth + roles |  |  | Auth + authorization boundaries. |
+| CUHK email verification (@link.cuhk.edu.hk) |  |  | Domain restriction + verification flow. |
+| Listings CRUD |  |  | Create/edit/delete listings + validations. |
+| Image uploads |  |  | Active Storage (or equivalent). |
+| Item status workflow |  |  | Available → Reserved → Sold. |
+| Search & filtering (fuzzy search) |  |  | Keyword search + filters. |
+| Community/college feature |  |  | College grouping/community space. |
+| ActionCable chat/notifications |  |  | Real-time messaging + notifications. |
+| RSpec + SimpleCov |  |  | Unit tests + coverage evidence. |
+| Cucumber BDD scenarios |  |  | Acceptance tests for key user stories. |
+
+
 
 ## Getting Started (Local)
 
@@ -91,44 +77,6 @@ CUSHMS focuses on a safer campus-only marketplace:
 - Bundler
 - PostgreSQL (running locally)
 - Node.js (only if your app uses JS tooling; depends on your Rails setup)
-
-### Installation
-```bash
-git clone <REPO_URL>
-cd <PROJECT_FOLDER>
-bundle install
-
-
-
-
-
-
-
-
-## Tech Stack
-- Ruby on Rails 7+
-- Database: PostgreSQL
-- Testing: RSpec (unit) + Cucumber (BDD)
-- CI: GitHub Actions
-- Deployment: Heroku
-
-## Features
-### Core features
-- Community/college space
-- Item status management (Available → Reserved → Sold)
-
-### Advanced features (N-1)
-- Fuzzy search + filtering
-- CUHK email verification (restricted to @link.cuhk.edu.hk)
-- Listings CRUD + image upload
-- Interactive Dashboard
-- ActionCable real-time chat/notifications
-
-## Local Setup
-### Prerequisites
-- Ruby: <version>
-- Bundler
-- PostgreSQL
 
 ### Installation
 ```bash
