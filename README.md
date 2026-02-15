@@ -12,8 +12,8 @@ Key workflows: Listings + search/filtering + item status (Available → Reserved
 ## Project Proposal
 https://docs.google.com/document/d/1pZFI09Xlm_pA6fKjwJcew4SsQhj_CRPV6WBCmB0rNFI/edit?usp=sharing
 
-## "Walking Skeleton" Link:
-https://csci3100-group9-project-c5b9f4042600.herokuapp.com/ 
+## Live Demo
+- Walking Skeleton (Heroku): https://csci3100-group9-project-c5b9f4042600.herokuapp.com/
 
 
 ## Feature Ownership
@@ -38,9 +38,76 @@ Primary = main implementer. Secondary = support/reviewer + contributed commits/t
 
 
 
+
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Scope](#project-scope)
+- [Getting Started (Local)](#getting-started-local)
+- [Environment Variables](#environment-variables)
+- [Database Setup](#database-setup)
+- [Run the App](#run-the-app)
+- [Testing](#testing)
+- [CI](#ci)
+- [Deployment (Heroku)](#deployment-heroku)
+- [Troubleshooting](#troubleshooting)
+- [Team](#team)
+
+
+
+## Features
+
+### Core
+- Community / college space
+- Listings workflow (CRUD)
+- Item status management: **Available → Reserved → Sold**
+- Search & filtering for listings
+- Image upload for listings
+- Real-time chat & notifications (ActionCable)
+
+### Advanced (N-1)
+- Fuzzy search + filtering
+- CUHK email verification (restricted to `@link.cuhk.edu.hk`)
+- Interactive dashboard (e.g., views/clicks)
+
 ## Tech Stack
 - Ruby on Rails 7+
-- Database: MySQL
+- Database: PostgreSQL
+- Testing: RSpec (unit) + Cucumber (BDD)
+- CI: GitHub Actions
+- Deployment: Heroku
+
+## Project Scope
+CUSHMS focuses on a safer campus-only marketplace:
+- Only CUHK students can register (email domain restricted to `@link.cuhk.edu.hk`)
+- Centralized listings for common campus needs (textbooks, electronics, dorm essentials)
+- Faster discovery via search/filtering (with fuzzy search as an enhancement)
+- Lower friction communication via real-time chat and notifications
+
+## Getting Started (Local)
+
+### Prerequisites
+- Ruby: see `.ruby-version` (recommended) or `ruby` version declared in `Gemfile`
+- Bundler
+- PostgreSQL (running locally)
+- Node.js (only if your app uses JS tooling; depends on your Rails setup)
+
+### Installation
+```bash
+git clone <REPO_URL>
+cd <PROJECT_FOLDER>
+bundle install
+
+
+
+
+
+
+
+
+## Tech Stack
+- Ruby on Rails 7+
+- Database: PostgreSQL
 - Testing: RSpec (unit) + Cucumber (BDD)
 - CI: GitHub Actions
 - Deployment: Heroku
