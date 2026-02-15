@@ -1,8 +1,6 @@
 # CSCI3100-Project Group 9
 # CUSHMS — CUHK Second-Hand Marketplace SaaS
 
-Live demo: <HEROKU_URL>
-GitHub repo: <REPO_URL>
 
 ## Overview
 CUSHMS is a CUHK-focused second-hand marketplace for students to buy/sell items (textbooks, furniture, daily goods).
