@@ -13,7 +13,7 @@ Key workflows: Listings + search/filtering + item status (Available → Reserved
 https://docs.google.com/document/d/1pZFI09Xlm_pA6fKjwJcew4SsQhj_CRPV6WBCmB0rNFI/edit?usp=sharing
 
 ## Live Demo
-- Walking Skeleton (Heroku): https://csci3100-group9-project-c5b9f4042600.herokuapp.com/
+Walking Skeleton (Heroku): https://csci3100-group9-project-c5b9f4042600.herokuapp.com/
 
 
 ## Feature Ownership
